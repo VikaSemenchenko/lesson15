@@ -1,0 +1,45 @@
+.holder {
+    width:900px;
+    margin: auto;
+    border: 3px solid black;
+    border-top-right-radius: 20px;
+     border-top-left-radius: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     overflow: hidden;
+}
+
+.item {
+    flex-basis:350px;
+    padding: 20px;
+text-align: center;
+}
+.item:nth-child(1) {
+order:1; 
+flex-grow: 1.5;
+ background-color: tomato;   
+}
+.item:nth-child(2) {
+ order: 4;
+ flex-basis: 250px;  
+  background-color: blue; 
+  flex-grow: 1;
+}
+.item:nth-child(3) {
+   order: 3; 
+    flex-basis: 250px;   
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+.item:nth-child(4) {
+    order: 5;
+     flex-basis: 250px;  
+      background-color: green;
+      flex-grow: 1;
+
+}
+.item:nth-child(5) {
+    order: 2;
+    flex-grow: 1.5;
+    background-color: orange;
+}
